@@ -5,7 +5,67 @@
     <title>Hey there~</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <p class="text-sm text-blue-400">Hello World!</p>
+
+  <body class="bg-sky-300">
+    <div class="flex h-16 items-center justify-between bg-white px-2">
+      <img src="./imgs/logo.svg" alt="logo" />
+
+      <div class="flex space-x-4 text-blue-500">
+        <a href="#" class="hover:text-black">Home</a>
+        <a href="#" class="hover:text-black">Features</a>
+        <a href=" #" class="hover:text-black">Community</a>
+        <a href=" #" class="hover:text-black">Support</a>
+      </div>
+
+      <div class="flex space-x-2">
+        <button
+          class="rounded-md border-2 border-blue-500 px-4 py-2 text-blue-500"
+        >
+          Login
+        </button>
+        <button class="rounded-md border-2 bg-blue-500 px-4 py-2 text-white">
+          Sign Up
+        </button>
+      </div>
+    </div>
+    <div class="flex w-full justify-center py-4">
+      <div class="relative flex h-10 w-3/5 items-center">
+        <img
+          src="./imgs/ic_search.svg"
+          alt="search icon"
+          class="absolute left-3"
+        />
+        <input class="h-full w-full rounded-full pl-10 pr-20 outline-none" />
+        <button
+          class="absolute right-0 h-full rounded-br-2xl rounded-tr-2xl border border-white
+            bg-blue-500 px-4 text-white"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <div class="my-4">
+      <div class="flex w-full justify-center">
+        <div class="flex w-4/5 flex-col space-y-4">
+          <div class="grid-col-5 grid-row-5 grid gap-1">
+            <div class="row-span-1 bg-red-200">
+              <img
+                class="h-full w-full object-cover"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CbT25uErzW4JtBzvbTseD6XfDp4MByYwAYsNs584NL5fBLoqgyFEWSnC_g0yBUERx4I&usqp=CAU"
+                alt=""
+              />
+            </div>
+
+            <div class="row-span-1">
+              <img
+                class="h-full w-full object-cover"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CbT25uErzW4JtBzvbTseD6XfDp4MByYwAYsNs584NL5fBLoqgyFEWSnC_g0yBUERx4I&usqp=CAU"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
